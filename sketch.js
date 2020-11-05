@@ -1,3 +1,4 @@
+
 var helicopterIMG, helicopterSprite, packageSprite,packageIMG;
 var packageBody,ground
 const Engine = Matter.Engine;
@@ -15,9 +16,9 @@ function setup() {
 	createCanvas(800, 700);
 	rectMode(CENTER);
 
-	packageSprite=createSprite(width/2, 80, 10,10);
+	packageSprite=createSprite(width/2, 200, 10,10);
 	packageSprite.addImage(packageIMG)
-	packageSprite.scale=0.5
+	packageSprite.scale=0.15
 
 	helicopterSprite=createSprite(width/2, 200, 10,10);
 	helicopterSprite.addImage(helicopterIMG)
