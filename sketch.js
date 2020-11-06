@@ -47,12 +47,8 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  Engine.update(engine);
-  rect(ground.position.x, ground.position.y, width, 10)
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
-  ellipseMode(RADIUS);
-  ellipse(packageBody.position.x, packageBody.position.y, 20)
   background(0);
   keyPressed();
   drawSprites();
